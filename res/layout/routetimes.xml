@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<TextView
+  		android:text="Route Direction 1"
+  		android:id="@+id/rtNameDir1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+    <ListView
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:id="@+id/rtListDir1"
+    	android:scrollbars="vertical" />
+  	<TextView
+  		android:text="Route Direction 2"
+  		android:id="@+id/rtNameDir2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+    <ListView
+    	android:layout_width="fill_parent"
+    	android:layout_height="0dp"
+    	android:layout_weight="1"
+    	android:id="@+id/rtListDir2"
+    	android:scrollbars="vertical" />
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<ListView
+  		android:id="@+id/srfListTimes"
+  		android:layout_width="fill_parent"
+  		android:layout_height="160dp" />
+	<LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center">
+  		<Button 
+  			android:id="@+id/bsrfDir1"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="&lt; Seq"
+  			android:onClick="doSeqPrev" />
+  		<Button 
+  			android:id="@+id/bsrfDir2"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="Seq &gt;"
+  			android:onClick="doSeqNext" />
+  		<Button 
+  			android:id="@+id/bsrfLoc"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="L"
+  			android:onClick="doLoc" />
+  		<Button 
+  			android:id="@+id/bsrfPrev"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:text="&lt; Time"
+  			android:onClick="doTimePrev" />
+  		<Button 
+  			android:id="@+id/bsrfNow"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:text="now"
+  			android:onClick="doTimeNow" />
+  		<Button 
+  			android:id="@+id/bsrfNext"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_weight="1"
+  			android:text="Time &gt;"
+  			android:onClick="doTimeNext" />
+  	</LinearLayout>
+</LinearLayout>

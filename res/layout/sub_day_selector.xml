@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:gravity="center">
+ 	<Button
+    	android:id="@+id/bDayToday"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sWhenToday" 
+		android:onClick="doDayToday" />
+ 	<Button
+    	android:id="@+id/bDayTomorrow"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sWhenTomorrow" 
+		android:onClick="doDayTomorrow" />
+ 	<Button
+    	android:id="@+id/bDaySUN"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sWhenSun" 
+		android:onClick="doDaySUN" />
+ 	<Button
+    	android:id="@+id/bDayMTWRF"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sWhenMTWRF" 
+		android:onClick="doDayMTWRF" />
+ 	<Button
+    	android:id="@+id/bDaySAT"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sWhenSat" 
+		android:onClick="doDaySAT" />
+ 	<Button
+    	android:id="@+id/bDayAll"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sWhenAll" 
+		android:onClick="doDayAll" />
+</LinearLayout>

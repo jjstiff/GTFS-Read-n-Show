@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1">
+  	<ImageView android:layout_width="fill_parent" android:id="@+id/imgLoading" android:layout_height="wrap_content" android:layout_weight="1" android:scaleType="center" android:src="@drawable/icon"/>
+    <Button
+    	android:id="@+id/bShowMap"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sShowMap" 
+		android:onClick="doShowMap" />
+	<Button
+		android:id="@+id/bShowSchedule"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+  		android:text="@string/sShowSchedule"
+		android:onClick="doShowSchedule" />
+	<Button
+		android:id="@+id/bEnterDest"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+  		android:text="@string/sEnterDest"
+		android:onClick="doEnterDest" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="160dp"
+			android:id="@+id/svMessage" android:layout_weight="0">
+		<TextView android:text="GTFS Loader" android:id="@+id/tvMessage"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:layout_height="fill_parent" />
+    </ScrollView>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center">
+		<Button
+			android:id="@+id/bAboutBox" android:layout_width="wrap_content" 
+  			android:text="@string/sAboutBox" android:layout_height="wrap_content"
+			android:onClick="doAboutBox" />
+		<Button
+			android:id="@+id/bShowStops" android:layout_width="wrap_content" 
+  			android:text="@string/sShowStops" android:layout_height="wrap_content"
+			android:onClick="doShowStops" />
+		<Button
+			android:id="@+id/bDataManage" android:layout_width="wrap_content" 
+  			android:text="@string/sManageData" android:layout_height="wrap_content"
+			android:onClick="doDataManage" />
+	</LinearLayout>
+</LinearLayout>

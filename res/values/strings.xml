@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GTFS Read and Show - VTA - v0.1.6 (alpha)</string>
+    <string name="sShowMap">Show Map</string>
+    <string name="sShowRoute">Show Route</string>
+    <string name="sShowSchedule">Show Schedules</string>
+    <string name="sShowStops">Test Route</string>
+    <string name="sShowTrips">Show Trips</string>
+    <string name="sEnterDest">Enter Destination</string>
+    <string name="sManageData">Manage GTFS Data</string>
+    <string name="sAboutBox">About</string>
+    <string name="t_about_box">About...</string>
+    <string name="t_show_map">Show Map::::</string>
+    <string name="sAboutTitle">GTFS - Google Transit Feed Specification</string>
+    <string name="sAboutText">
+    This android application has been built in response to a
+    programming competition sponsored by the Valley Transit
+    Authority of Santa Clara, California (VTA).
+   	http://www.vta.org/appcontest (July 2011)
+   	The competition goal is to build a mobile application
+   	using the Google Transit Feed Specification data,
+   	published by VTA at http://www.vta.org/dev/data/google_transit.zip
+   	To meet the deadline (Sept 12th) I have published the application before
+   	it is complete.
+   	Still TODO: (1) Properly display the schedules through show schedule.
+   	(2) Utilize Enter Destination to maintain a list of frequent destinations.
+   	(3) Employ a route planning algorithm to determine multiple and the
+   	fastest mode to arrive at the destination from the current location.
+   	(4) Allow for user feedback on a separate activity - though I am not
+   	sure if the Android Market Place is a better solution.</string>
+   	<string name="sAboutFoot">November 2011 by JJ Stiff, Santa Clara, CA.</string>
+   	
+   	<string name="sRemoveDataFileTxt">
+   		The GTFS data file is supplied by VTA.
+   		Remove the data file so that during the next loading process
+   		a new copy of the data file will be downloaded.</string>
+   	<string name="sRemoveDataFileBtn">Remove GTFS Data File</string>
+   	<string name="sClearMemoryTxt">
+   		The data file is loaded into memory and occupies almost 10MB
+   		of RAM. Clear the memory and this application is mostly useless
+   		until you reload the data. </string>
+   	<string name="sClearMemoryBtn">Clear Application Memory</string>
+   	<string name="sReloadDataTxt">
+   		Without this button you could reload the memory by force quitting
+   		and then re-running the application. First remove the data file,
+   		then reload the memory to get the latest data loaded.</string>
+   	<string name="sReloadDataBtn">Reload Application Memory</string>
+   	
+   	<string name="sWhenToday">Today</string>
+   	<string name="sWhenTomorrow">Tom</string>
+   	<string name="sWhenSun">Sun</string>
+   	<string name="sWhenMTWRF">MTWRF</string>
+   	<string name="sWhenSat">Sat</string>
+   	<string name="sWhenAll">All</string>
+</resources>

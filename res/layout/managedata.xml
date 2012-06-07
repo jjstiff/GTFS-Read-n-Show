@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+	<TextView
+		android:text="@string/sRemoveDataFileTxt"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+ 	<Button
+    	android:id="@+id/bRemoveDataFile"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+  		android:text="@string/sRemoveDataFileBtn" 
+		android:onClick="doRemoveDataFile" />
+	<TextView
+		android:text="@string/sClearMemoryTxt"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+	<Button
+		android:id="@+id/bClearMemory"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+  		android:text="@string/sClearMemoryBtn"
+		android:onClick="doClearMemory" />
+	<TextView
+		android:text="@string/sReloadDataTxt"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+	<Button
+		android:id="@+id/bReloadData"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+  		android:text="@string/sReloadDataBtn"
+		android:onClick="doReloadData" />
+	<ScrollView android:layout_width="fill_parent" android:layout_height="160dp"
+			android:id="@+id/svMessage" android:layout_weight="0">
+		<TextView android:text="GTFS Loader" android:id="@+id/tvMessage"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:layout_height="fill_parent" />
+    </ScrollView>
+    
+</LinearLayout>

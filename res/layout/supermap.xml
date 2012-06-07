@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">
+  	<LinearLayout
+  		android:id="@+id/superHeadView"
+  		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+	<com.google.android.maps.MapView
+  		android:id="@+id/superMapView"
+  		android:layout_width="fill_parent"
+  		android:layout_height="0dp"
+  		android:layout_weight="3"
+  		android:clickable="true"
+  		android:apiKey="0IAuYkqLRYza_2GJ7w_NnAs6TyjMN5ziZLHfD2w" />
+    <LinearLayout
+  		android:id="@+id/superFootView"
+  		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" />
+ </LinearLayout>
+ 
+ <!-- jjsland key android:apiKey="0IAuYkqLRYza_2GJ7w_NnAs6TyjMN5ziZLHfD2w" -->
+ <!--  debug key android:apiKey="0iUXr4R1kbLX_T5KsgOzSycRwAQNSZHBKKMCThA" -->

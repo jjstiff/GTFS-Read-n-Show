@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent"
+  	android:layout_height="fill_parent">
+	<ListView
+  		android:id="@+id/smListRoutes"
+  		android:layout_width="fill_parent"
+  		android:layout_height="160dp" />
+    <TextView
+    	android:id="@+id/smListEmpty"
+    	android:layout_width="fill_parent"
+    	android:layout_height="160dp"
+    	android:gravity="center"
+    	android:text="Stop-Time Data is not yet Loaded.\nPlease wait..." />
+  	<LinearLayout
+  		android:orientation="horizontal"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  		<Button
+  			android:text="L"
+  			android:id="@+id/smSnapMyLocation"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:onClick="doSnapMyLocation" />
+    	<TextView
+  			android:text="Select a Stop to see Routes"
+  			android:id="@+id/smStopCount"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:gravity="center"
+			android:layout_weight="6" />
+  		<Button
+  			android:text="Z"
+  			android:id="@+id/smZoomSwitch"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:onClick="doZoomSwitch" />
+	</LinearLayout>
+</LinearLayout>

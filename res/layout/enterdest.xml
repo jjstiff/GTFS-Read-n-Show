@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <EditText
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:id="@+id/edText"
+    	android:inputType="textPostalAddress">
+        <requestFocus />
+    </EditText>
+    <Button
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:text="Search"
+    	android:id="@+id/edSearch"
+    	android:onClick="doFindDest" />
+    <ListView
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center"
+    	android:id="@+id/edResults"/>
+	<com.google.android.maps.MapView
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:id="@+id/edMapView"
+  		android:layout_width="fill_parent"
+  		android:layout_height="0dp"
+  		android:layout_weight="3"
+  		android:clickable="true"
+  		android:apiKey="0iUXr4R1kbLXcka9zfLsy4dqUNX0gkpBddR3rlg" />
+</LinearLayout>
+ 
+ <!-- jjsland key android:apiKey="0IAuYkqLRYza_2GJ7w_NnAs6TyjMN5ziZLHfD2w" -->
+ <!--  debug key android:apiKey="0iUXr4R1kbLXcka9zfLsy4dqUNX0gkpBddR3rlg" -->

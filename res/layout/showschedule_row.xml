@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<LinearLayout
+  		android:orientation="vertical"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:layout_gravity="center_vertical">
+  		<TextView
+    		android:id="@+id/ssRouteNum"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center"
+    		android:textSize="50dp"
+    		android:text="###" />
+  		<TextView
+    		android:id="@+id/ssAgency"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:layout_gravity="center"
+    		android:gravity="top"
+    		android:textSize="10dp"
+    		android:text="agency" />
+    </LinearLayout>
+    <LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<TextView
+    		android:id="@+id/ssLongName"
+    		android:text="Long Name"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textSize="14dp" />
+    	<TextView
+    		android:id="@+id/ssTripCount1"
+    		android:text="# of Trips"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textSize="10dp" />
+    	<TextView
+    		android:id="@+id/ssTripCount2"
+    		android:text="# of Trips"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textSize="10dp" />
+    	<TextView
+    		android:id="@+id/ssTripCount3"
+    		android:text="# of Stops"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:textSize="10dp" />
+    </LinearLayout>
+</LinearLayout>
